@@ -1,0 +1,12 @@
+Problem
+
+1)Can't install dependencies pip install tensorflow==2.4.1 tensorflow-gpu==2.4.1
+-use python version 3.8.19. Specificall conda
+-conda create --name tf_env python=3.8
+-conda activate tf_env
+-at vscode change kernel and find tf_env
+
+2) Time out during install dependencies
+-add timeout after pip install. : pip install tensorflow==2.4.1 tensorflow-gpu==2.4.1 opencv-python matplotlib --timeout 1000
+
+
