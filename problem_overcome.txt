@@ -9,4 +9,8 @@ Problem
 2) Time out during install dependencies
 -add timeout after pip install. : pip install tensorflow==2.4.1 tensorflow-gpu==2.4.1 opencv-python matplotlib --timeout 1000
 
+3) GPU not detected
+- Install CUDA and CuDNN version that is supported. For tensorflow 2.4.1 CUDA version 11 and CuDNN Version 8.0 (for CUDA verison 11)
+- https://developer.nvidia.com/cuda-11-0-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local
+- https://developer.nvidia.com/rdp/cudnn-archive
 
